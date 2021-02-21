@@ -1,3 +1,6 @@
+Using this tutorial:
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
 git init the directory first
 adding a new file with git add, and then git commit (could use git commit -a to do both at the same time)
 
@@ -12,3 +15,8 @@ You will have to probably pull from the repo first, so use
 git pull origin main
 
 Then use git push -u origin main
+
+using https links: 
+probably want to adjust the password cache timeout
+git config --global credential.helper 'cache --timeout=3600'
+##################################################################
