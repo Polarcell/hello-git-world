@@ -2,4 +2,5 @@ adding a new file with git add, and then git commit
 To add to git hub, use 
 git remote add origin <remote_url>, where the remote url is gotten from GitHub new repository.  Need to set that up remotely
 
+Github uses main instead of master, so use git branch -m main
 Then use git push -u origin main
